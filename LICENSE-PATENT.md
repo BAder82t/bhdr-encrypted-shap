@@ -8,7 +8,7 @@
 > reimplementations, ports to other FHE libraries, hardware
 > accelerators, OEM platforms).
 
-`bhdr-oss` is offered under three independent licenses:
+`bhdr-encrypted-shap` is offered under three independent licenses:
 
 1. **AGPL-3.0-or-later** — covers source code copyright. See
    [LICENSE](LICENSE) and [LICENSING.md](LICENSING.md).
@@ -23,7 +23,7 @@ Patent rights and copyright are independent. The AGPL license on this
 repository does **not** grant patent rights except to the minimum
 extent, if any, expressly required by AGPL-3.0 §11 itself. The
 VaultBytes Commercial License grants a covenant-not-to-sue scoped to
-the licensed `bhdr-oss` deployment but does not, by itself, grant
+the licensed `bhdr-encrypted-shap` deployment but does not, by itself, grant
 freedom to assert the method in a clean-room reimplementation, a port
 to a different FHE library, or a hardware accelerator. For those
 cases, a standalone patent license is required.
@@ -82,7 +82,7 @@ You do **not** need a patent license to:
 - Run the unit tests, microbenchmarks, or evaluation in a sandbox
   under AGPL-3.0.
 - Operate an internal AGPL-compatible deployment of unmodified
-  `bhdr-oss` strictly for non-commercial research, provided your use
+  `bhdr-encrypted-shap` strictly for non-commercial research, provided your use
   does not extend the patented method beyond what AGPL-3.0 §11
   requires.
 
@@ -110,7 +110,7 @@ Innovations Ltd and the licensee. Standard terms include:
   for the term of the license.
 - An **option to upgrade** to a combined source + patent license under
   [LICENSE-COMMERCIAL.md](LICENSE-COMMERCIAL.md) if the licensee later
-  decides to ship `bhdr-oss` itself rather than a reimplementation.
+  decides to ship `bhdr-encrypted-shap` itself rather than a reimplementation.
 
 The exact scope, royalty model, term, audit rights, and termination
 triggers live in the signed master patent license agreement. This page
@@ -146,7 +146,7 @@ Email **b@vaultbytes.com** with:
   library or hardware target, which fields of use you intend to
   operate in, which PCT national-phase jurisdictions you require, and
   approximate deployment volume.
-- Whether your implementation is a port of `bhdr-oss`, a clean-room
+- Whether your implementation is a port of `bhdr-encrypted-shap`, a clean-room
   reimplementation from the paper, or a hybrid.
 - Whether you also need a source code license under
   [LICENSE-COMMERCIAL.md](LICENSE-COMMERCIAL.md), or whether the

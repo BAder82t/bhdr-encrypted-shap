@@ -18,7 +18,7 @@ reproducibility, and patent-claim disclosure.
 Kernel licensing summary
 ------------------------
 
-bhdr-oss (this repository) is offered under three independent
+bhdr-encrypted-shap (this repository) is offered under three independent
 licenses. See LICENSING.md for guidance on which one applies to your
 kernel-level deployment. CipherExplain product customers do not need
 to negotiate these separately — the product license covers them.
@@ -53,7 +53,7 @@ Patent status: PENDING.
 The AGPL license on this repository grants no patent rights except to
 the minimum extent, if any, expressly required by AGPL-3.0 §11 itself.
 The VaultBytes Commercial License grants a covenant-not-to-sue scoped
-to the licensed bhdr-oss deployment. A standalone patent license under
+to the licensed bhdr-encrypted-shap deployment. A standalone patent license under
 LICENSE-PATENT.md is required for clean-room reimplementations, ports
 to other FHE libraries, hardware accelerators, and OEM embedding.
 

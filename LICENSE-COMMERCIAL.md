@@ -10,7 +10,7 @@
 > non-AGPL terms (e.g. to embed it into their own platform without
 > using CipherExplain).
 
-`bhdr-oss` is offered under three independent licenses:
+`bhdr-encrypted-shap` is offered under three independent licenses:
 
 1. **AGPL-3.0-or-later** — the default. See [LICENSE](LICENSE) and
    [LICENSING.md](LICENSING.md).
@@ -33,13 +33,13 @@ and support enumerated below.
 
 You need a commercial license if **any** of the following apply:
 
-- You ship `bhdr-oss` (modified or unmodified) inside a product or
+- You ship `bhdr-encrypted-shap` (modified or unmodified) inside a product or
   service whose source you do not want to release under AGPL-3.0.
 - You operate a hosted service (SaaS, internal portal, regulator
   console, model-risk platform, encrypted-explainability API) that
   exposes BHDR primitives over a network and you do not want AGPL
   §13's source-disclosure obligation to extend to that service.
-- You link `bhdr-oss` into a proprietary library or proprietary
+- You link `bhdr-encrypted-shap` into a proprietary library or proprietary
   pipeline whose other components are not AGPL-compatible.
 - Your legal, procurement, or compliance function has a categorical
   prohibition on AGPL-licensed dependencies (common in regulated
@@ -55,7 +55,7 @@ You do **not** need a commercial license to:
   software you are willing to release under AGPL-3.0.
 - Cite the paper, reproduce the microbenchmarks, or run the unit tests
   in a sandbox.
-- Distribute an AGPL-3.0 fork of `bhdr-oss` provided you respect the
+- Distribute an AGPL-3.0 fork of `bhdr-encrypted-shap` provided you respect the
   AGPL terms and the trademark notice in [LICENSING.md](LICENSING.md).
 
 If you are unsure whether your deployment requires a commercial
@@ -70,19 +70,19 @@ A commercial license is a written agreement between VaultBytes
 Innovations Ltd and the licensee. Standard terms include:
 
 - A non-exclusive, worldwide, non-transferable right to use, modify,
-  and distribute `bhdr-oss` outside the AGPL-3.0 obligations, scoped
+  and distribute `bhdr-encrypted-shap` outside the AGPL-3.0 obligations, scoped
   to the licensed deployment.
-- Permission to embed `bhdr-oss` in proprietary products and to
+- Permission to embed `bhdr-encrypted-shap` in proprietary products and to
   operate proprietary network services that depend on it without
   triggering AGPL §13.
 - A covenant-not-to-sue scoped to the licensed deployment for any
   VaultBytes patents (including PCT/IB2026/053405) reading on the
-  licensed `bhdr-oss` releases. Standalone patent licenses for
-  non-`bhdr-oss` use (clean-room reimplementations, ports to other
+  licensed `bhdr-encrypted-shap` releases. Standalone patent licenses for
+  non-`bhdr-encrypted-shap` use (clean-room reimplementations, ports to other
   FHE libraries, hardware accelerators) are negotiated separately
   under [LICENSE-PATENT.md](LICENSE-PATENT.md).
 - Capped indemnity for third-party intellectual-property infringement
-  claims arising from unmodified `bhdr-oss` releases.
+  claims arising from unmodified `bhdr-encrypted-shap` releases.
 - A defined support level: response times for security advisories,
   named-channel access for integration questions, and pre-disclosure
   of CVEs affecting the licensed releases.
@@ -152,7 +152,7 @@ for procurement.
 
 ## Frequently asked questions
 
-**We are evaluating `bhdr-oss` and have not deployed it. Do we need a
+**We are evaluating `bhdr-encrypted-shap` and have not deployed it. Do we need a
 license?**
 No. Reading source, running tests in a sandbox, and reproducing the
 microbenchmarks are covered by AGPL-3.0. You only need a commercial
@@ -167,8 +167,8 @@ channel.
 
 **Does the commercial license cover patents?**
 The standard commercial license includes a covenant-not-to-sue scoped
-to the licensed `bhdr-oss` deployment for VaultBytes patents reading
-on the licensed code. Standalone patent licenses for non-`bhdr-oss`
+to the licensed `bhdr-encrypted-shap` deployment for VaultBytes patents reading
+on the licensed code. Standalone patent licenses for non-`bhdr-encrypted-shap`
 use (clean-room ports, hardware accelerators, third-party FHE
 libraries) are negotiated separately under
 [LICENSE-PATENT.md](LICENSE-PATENT.md).

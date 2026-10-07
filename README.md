@@ -121,7 +121,7 @@ not here.
 
 ## License
 
-`bhdr-oss` is published under three independent licenses to cover the
+`bhdr-encrypted-shap` is published under three independent licenses to cover the
 kernel-only use cases above. The deployable CipherExplain product is
 licensed separately under its own commercial terms (see
 [cipherexplain.com](https://cipherexplain.com)).

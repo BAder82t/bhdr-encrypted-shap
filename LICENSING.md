@@ -7,7 +7,7 @@
 > source code and the underlying patent for the narrow set of cases
 > where someone wants the kernel separately.
 
-`bhdr-oss` is offered under three distinct, complementary licenses.
+`bhdr-encrypted-shap` is offered under three distinct, complementary licenses.
 Pick the one that matches how you intend to use the kernel.
 
 | License | Covers | Cost | Who it is for |
@@ -24,14 +24,14 @@ telemetry hidden in a proprietary fork.
 
 ## 1. AGPL-3.0-or-later (default)
 
-You may use, study, modify, and redistribute `bhdr-oss` freely under
+You may use, study, modify, and redistribute `bhdr-encrypted-shap` freely under
 the standard AGPL terms:
 
 - modifications you distribute must be released under AGPL-3.0-or-later,
 - modifications you run as a network service that interacts with users
   must also be released under AGPL-3.0-or-later (the §13 network
   clause),
-- every system that links against `bhdr-oss` must itself be
+- every system that links against `bhdr-encrypted-shap` must itself be
   AGPL-compatible.
 
 The AGPL license grants no patent rights except to the minimum extent,
@@ -52,10 +52,10 @@ A paid alternative to AGPL for deployments where AGPL is incompatible
 with the licensee's product, customers, or procurement function.
 Common cases:
 
-- Embedding `bhdr-oss` in a proprietary product.
+- Embedding `bhdr-encrypted-shap` in a proprietary product.
 - Operating a hosted service (SaaS, internal portal, regulator console)
   where AGPL §13 source-disclosure is not acceptable.
-- Linking `bhdr-oss` into a proprietary pipeline whose other
+- Linking `bhdr-encrypted-shap` into a proprietary pipeline whose other
   components are not AGPL-compatible.
 - A categorical procurement ban on AGPL dependencies (common in
   regulated banking, insurance, medical-device, and government supply
@@ -66,7 +66,7 @@ Common cases:
 The standard commercial license bundles a covenant-not-to-sue scoped
 to the licensed deployment for VaultBytes patents reading on the
 licensed code. It does **not** automatically grant the standalone
-patent license described below for non-`bhdr-oss` use.
+patent license described below for non-`bhdr-encrypted-shap` use.
 
 See [LICENSE-COMMERCIAL.md](LICENSE-COMMERCIAL.md) for the terms.
 
@@ -76,7 +76,7 @@ See [LICENSE-COMMERCIAL.md](LICENSE-COMMERCIAL.md) for the terms.
 
 PCT patent application **PCT/IB2026/053405** covers the method —
 non-interactive single-server Kernel SHAP under CKKS using compressed
-coalition sampling — independently of the `bhdr-oss` source code.
+coalition sampling — independently of the `bhdr-encrypted-shap` source code.
 
 A patent license is required if you implement the patented method in
 your own code (a clean-room reimplementation, a port to a different
